@@ -1,0 +1,14 @@
+C:\Users\Danny\source\repos\CareerCloud\CareerCloud.EntityFrameworkDataAccess\bin\Debug\netcoreapp3.1\CareerCloud.EntityFrameworkDataAccess.deps.json
+C:\Users\Danny\source\repos\CareerCloud\CareerCloud.EntityFrameworkDataAccess\bin\Debug\netcoreapp3.1\CareerCloud.EntityFrameworkDataAccess.dll
+C:\Users\Danny\source\repos\CareerCloud\CareerCloud.EntityFrameworkDataAccess\obj\Debug\netcoreapp3.1\CareerCloud.EntityFrameworkDataAccess.csprojAssemblyReference.cache
+C:\Users\Danny\source\repos\CareerCloud\CareerCloud.EntityFrameworkDataAccess\obj\Debug\netcoreapp3.1\CareerCloud.EntityFrameworkDataAccess.AssemblyInfoInputs.cache
+C:\Users\Danny\source\repos\CareerCloud\CareerCloud.EntityFrameworkDataAccess\obj\Debug\netcoreapp3.1\CareerCloud.EntityFrameworkDataAccess.AssemblyInfo.cs
+C:\Users\Danny\source\repos\CareerCloud\CareerCloud.EntityFrameworkDataAccess\bin\Debug\netcoreapp3.1\CareerCloud.EntityFrameworkDataAccess.pdb
+C:\Users\Danny\source\repos\CareerCloud\CareerCloud.EntityFrameworkDataAccess\bin\Debug\netcoreapp3.1\CareerCloud.DataAccessLayer.dll
+C:\Users\Danny\source\repos\CareerCloud\CareerCloud.EntityFrameworkDataAccess\bin\Debug\netcoreapp3.1\CareerCloud.Pocos.dll
+C:\Users\Danny\source\repos\CareerCloud\CareerCloud.EntityFrameworkDataAccess\bin\Debug\netcoreapp3.1\CareerCloud.DataAccessLayer.pdb
+C:\Users\Danny\source\repos\CareerCloud\CareerCloud.EntityFrameworkDataAccess\bin\Debug\netcoreapp3.1\CareerCloud.Pocos.pdb
+C:\Users\Danny\source\repos\CareerCloud\CareerCloud.EntityFrameworkDataAccess\obj\Debug\netcoreapp3.1\CareerCloud.EntityFrameworkDataAccess.csproj.CopyComplete
+C:\Users\Danny\source\repos\CareerCloud\CareerCloud.EntityFrameworkDataAccess\obj\Debug\netcoreapp3.1\CareerCloud.EntityFrameworkDataAccess.dll
+C:\Users\Danny\source\repos\CareerCloud\CareerCloud.EntityFrameworkDataAccess\obj\Debug\netcoreapp3.1\CareerCloud.EntityFrameworkDataAccess.pdb
+C:\Users\Danny\source\repos\CareerCloud\CareerCloud.EntityFrameworkDataAccess\obj\Debug\netcoreapp3.1\CareerCloud.EntityFrameworkDataAccess.csproj.CoreCompileInputs.cache

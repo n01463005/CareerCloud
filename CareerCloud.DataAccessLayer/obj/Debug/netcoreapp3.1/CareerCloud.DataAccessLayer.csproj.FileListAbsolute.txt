@@ -1,0 +1,9 @@
+C:\Users\Danny\source\repos\CareerCloud\CareerCloud.DataAccessLayer\bin\Debug\netcoreapp3.1\CareerCloud.DataAccessLayer.deps.json
+C:\Users\Danny\source\repos\CareerCloud\CareerCloud.DataAccessLayer\bin\Debug\netcoreapp3.1\CareerCloud.DataAccessLayer.dll
+C:\Users\Danny\source\repos\CareerCloud\CareerCloud.DataAccessLayer\bin\Debug\netcoreapp3.1\CareerCloud.DataAccessLayer.pdb
+C:\Users\Danny\source\repos\CareerCloud\CareerCloud.DataAccessLayer\obj\Debug\netcoreapp3.1\CareerCloud.DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\Danny\source\repos\CareerCloud\CareerCloud.DataAccessLayer\obj\Debug\netcoreapp3.1\CareerCloud.DataAccessLayer.AssemblyInfo.cs
+C:\Users\Danny\source\repos\CareerCloud\CareerCloud.DataAccessLayer\obj\Debug\netcoreapp3.1\CareerCloud.DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Danny\source\repos\CareerCloud\CareerCloud.DataAccessLayer\obj\Debug\netcoreapp3.1\CareerCloud.DataAccessLayer.dll
+C:\Users\Danny\source\repos\CareerCloud\CareerCloud.DataAccessLayer\obj\Debug\netcoreapp3.1\CareerCloud.DataAccessLayer.pdb
+C:\Users\Danny\source\repos\CareerCloud\CareerCloud.DataAccessLayer\obj\Debug\netcoreapp3.1\CareerCloud.DataAccessLayer.csprojAssemblyReference.cache

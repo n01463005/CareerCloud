@@ -1,0 +1,8 @@
+C:\Users\Danny\source\repos\CareerCloud\CareerCloud.Poco\obj\Debug\netcoreapp3.1\CareerCloud.Poco.AssemblyInfoInputs.cache
+C:\Users\Danny\source\repos\CareerCloud\CareerCloud.Poco\obj\Debug\netcoreapp3.1\CareerCloud.Poco.AssemblyInfo.cs
+C:\Users\Danny\source\repos\CareerCloud\CareerCloud.Poco\obj\Debug\netcoreapp3.1\CareerCloud.Poco.csproj.CoreCompileInputs.cache
+C:\Users\Danny\source\repos\CareerCloud\CareerCloud.Poco\bin\Debug\netcoreapp3.1\CareerCloud.Poco.deps.json
+C:\Users\Danny\source\repos\CareerCloud\CareerCloud.Poco\bin\Debug\netcoreapp3.1\CareerCloud.Poco.dll
+C:\Users\Danny\source\repos\CareerCloud\CareerCloud.Poco\bin\Debug\netcoreapp3.1\CareerCloud.Poco.pdb
+C:\Users\Danny\source\repos\CareerCloud\CareerCloud.Poco\obj\Debug\netcoreapp3.1\CareerCloud.Poco.dll
+C:\Users\Danny\source\repos\CareerCloud\CareerCloud.Poco\obj\Debug\netcoreapp3.1\CareerCloud.Poco.pdb

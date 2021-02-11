@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "CareerCloud1.Pocos/1.0.0": {
+        "runtime": {
+          "CareerCloud1.Pocos.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CareerCloud1.Pocos/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
