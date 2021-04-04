@@ -1,0 +1,78 @@
+syntax = "proto3";
+
+import "google/protobuf/empty.proto";
+import "google/protobuf/timestamp.proto";
+
+
+option csharp_namespace = "CareerCloud.gRPC.Protos";
+
+package CareerCloud.gRPC;
+
+service SecurityLoginService{
+
+rpc GetSecurityLogin(SecurityLoginIdRequest) returns(SecurityLogin);
+rpc CreateSecurityLogin(SecurityLogins) returns(google.protobuf.Empty);
+rpc UpdateSecurityLogin(SecurityLogins)returns(google.protobuf.Empty);
+rpc DeleteSecurityLogin(SecurityLogins)returns(google.protobuf.Empty);
+
+}
+message SecurityLoginIdRequest{
+	string Id = 1;
+}
+
+message SecurityLogin{
+	string Id = 1;
+    string Login =  2;
+    string Password = 3;
+    google.protobuf.Timestamp Created = 4;
+    google.protobuf.Timestamp PasswordUpdate = 5;
+    google.protobuf.Timestamp AgreementAccepted = 6;
+    bool IsLocked = 7;
+    bool IsInactive = 8;
+    string EmailAddress = 9;
+    string PhoneNumber = 10;
+    string FullName = 11;
+    string PrefferredLanguage = 12;
+    bool ForceChangePassword = 13;
+
+}
+message SecurityLogins{
+    repeated SecurityLogin SL = 1;
+}
+
+/*
+
+ public Guid Id { get; set; }
+        public string Login { get; set; }
+        public string Password { get; set; }
+
+        
+        public DateTime Created { get; set; }
+
+        
+        public DateTime? PasswordUpdate { get; set; }
+
+        public DateTime? AgreementAccepted { get; set; }
+
+       
+        public Boolean IsLocked { get; set; }
+
+        
+        public Boolean IsInactive { get; set; }
+
+        
+        public string EmailAddress { get; set; }
+
+       
+
+        public string PhoneNumber { get; set; }
+
+       
+        public string FullName { get; set; }
+
+        
+        public Boolean ForceChangePassword { get; set; }
+
+        
+        public string PrefferredLanguage { get; set; }
+*/

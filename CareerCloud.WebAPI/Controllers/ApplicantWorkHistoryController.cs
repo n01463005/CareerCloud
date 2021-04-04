@@ -24,7 +24,7 @@ namespace CareerCloud.WebAPI.Controllers
 
         [HttpGet]
         [Route("WorkHistory/{workid}")]
-        [ResponseType(typeof(ApplicantWorkHistoryPoco))]
+        [ProducesResponseType(200, Type = typeof(ApplicantWorkHistoryPoco))]
 
         public ActionResult GetApplicantWorkHistory(Guid workid)
         {
@@ -38,7 +38,7 @@ namespace CareerCloud.WebAPI.Controllers
 
         [HttpGet]
         [Route("workHistory")]
-        [ResponseType(typeof(List<ApplicantWorkHistoryPoco>))]
+        [ProducesResponseType(200, Type = typeof(List<ApplicantWorkHistoryPoco>))]
         public ActionResult GetAllApplicantWorkHistory()
         {
             List<ApplicantWorkHistoryPoco> poco = _logic.GetAll();

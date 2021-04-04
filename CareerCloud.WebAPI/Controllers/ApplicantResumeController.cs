@@ -24,7 +24,7 @@ namespace CareerCloud.WebAPI.Controllers
 
         [HttpGet]
         [Route("Resume/{Resumeid}")]
-        [ResponseType(typeof(ApplicantResumePoco))]
+        [ProducesResponseType(200, Type = typeof(ApplicantResumePoco))]
 
         public ActionResult GetApplicantResume(Guid Resumeid)
         {
@@ -39,7 +39,7 @@ namespace CareerCloud.WebAPI.Controllers
 
         [HttpGet]
         [Route ("Resume")]
-        [ResponseType(typeof(List<ApplicantResumePoco>))]
+        [ProducesResponseType(200, Type = typeof(List<ApplicantResumePoco>))]
         public ActionResult GetApplicantResume()
         {
             List<ApplicantResumePoco> poco = _logic.GetAll();

@@ -1,0 +1,74 @@
+syntax = "proto3";
+
+import "google/protobuf/wrappers.proto";
+import "google/protobuf/empty.proto";
+
+option csharp_namespace = "CareerCloud.gRPC.Protos";
+
+package CareerCloud.gRPC;
+
+service ApplicantProfileService{
+
+  rpc GetApplicantProfile(AppProfileIdRequest) returns(ApplicantProfile);
+  rpc CreateApplicantProfile(ApplicantProfiles) returns (google.protobuf.Empty);
+  rpc UpdateApplicantProfile(ApplicantProfiles) returns(google.protobuf.Empty); 
+  rpc DeleteApplicantProfile(ApplicantProfiles)  returns (google.protobuf.Empty);
+
+}
+
+message AppProfileIdRequest{
+	  string Id = 1;
+ }
+
+ message ApplicantProfile{
+
+      string Id = 1;
+      string Login = 2;
+      google.protobuf.DoubleValue CurrentSalary = 3;
+      google.protobuf.DoubleValue CurrentRate = 4;
+      string Currency = 5;
+      string Country = 6;
+      string Province = 7;
+      string Street = 8;
+      string City = 9;
+      string PostalCode = 10;
+
+
+ }
+ message ApplicantProfiles{
+      repeated ApplicantProfile AppPro = 1;
+ }
+
+ /*
+ 
+  public Guid Id { get; set; }
+        public Guid Login { get; set; }
+
+        [Column("Current_Salary")]
+        public Decimal? CurrentSalary { get; set; }
+
+        [Column("Current_Rate")]
+        public Decimal? CurrentRate { get; set; }
+
+        public string Currency { get; set; }
+
+        [Column("Country_Code")]
+
+        public string Country { get; set; }
+
+        [Column("State_Province_Code")]
+
+        public string Province { get; set; }
+
+        [Column("Street_Address")]
+
+        public string  Street { get; set; }
+
+        [Column("City_Town")]
+        public string City { get; set; }
+
+        [Column("Zip_Postal_Code")]
+
+        public string PostalCode { get; set; }
+ 
+ */

@@ -26,7 +26,7 @@ namespace CareerCloud.WebAPI.Controllers
         // Get by Id
         [HttpGet]
         [Route("education/{applicantEducationId}")]
-        [ResponseType(typeof(ApplicantEducationPoco))]
+        [ProducesResponseType(200, Type = typeof(ApplicantEducationPoco))]
         public ActionResult GetApplicantEducation(Guid applicantEducationId)
         {
             ApplicantEducationPoco poco = _logic.Get(applicantEducationId);
@@ -41,7 +41,7 @@ namespace CareerCloud.WebAPI.Controllers
         // Get all
         [HttpGet]
         [Route("education")]
-        [ResponseType(typeof(List<ApplicantEducationPoco>))]
+        [ProducesResponseType(200, Type = typeof(List<ApplicantEducationPoco>))]
 
         public ActionResult GetAllApplicantEducation()
         {

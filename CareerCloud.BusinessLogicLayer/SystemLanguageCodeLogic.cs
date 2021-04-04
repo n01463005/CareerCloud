@@ -9,7 +9,7 @@ namespace CareerCloud.BusinessLogicLayer
 {
    public class SystemLanguageCodeLogic
     {
-        protected IDataRepository<SystemLanguageCodePoco> _repo;
+        protected readonly IDataRepository<SystemLanguageCodePoco> _repo;
         public SystemLanguageCodeLogic(IDataRepository<SystemLanguageCodePoco> repo)
         {
             _repo = repo;  

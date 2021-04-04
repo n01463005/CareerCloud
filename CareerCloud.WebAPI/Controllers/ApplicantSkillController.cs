@@ -24,7 +24,7 @@ namespace CareerCloud.WebAPI.Controllers
             }
         [HttpGet]
         [Route("Skill/{skillid}")]
-        [ResponseType(typeof(ApplicantSkillPoco))]
+        [ProducesResponseType(200, Type = typeof(ApplicantSkillPoco))]
 
         public ActionResult GetApplicantSkill(Guid skillid)
         {
@@ -37,7 +37,7 @@ namespace CareerCloud.WebAPI.Controllers
         }
         [HttpGet]
         [Route("skill")]
-        [ResponseType(typeof(List<ApplicantSkillPoco>))]
+        [ProducesResponseType(200, Type = typeof(List<ApplicantSkillPoco>))]
 
         public ActionResult GetApplicantSkill()
         {

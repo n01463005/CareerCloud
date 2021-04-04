@@ -1,0 +1,45 @@
+syntax = "proto3";
+
+import "google/protobuf/empty.proto";
+
+option csharp_namespace = "CareerCloud.gRPC.Protos";
+package CareerCloud.gRPC;
+
+service CompanyDescriptionService{
+rpc GetCompanyDescription(CompanyDescribtionIdRequest) returns(CompanyDescription);
+  rpc CreateCompanyDescription(CompanyDescriptions) returns (google.protobuf.Empty);
+  rpc UpdateCompanyDescription(CompanyDescriptions) returns(google.protobuf.Empty); 
+  rpc DeleteCompanyDescription(CompanyDescriptions)  returns (google.protobuf.Empty);
+
+}
+message CompanyDescribtionIdRequest{
+	string Id = 1;
+}
+
+message CompanyDescription{
+    string Id = 1;
+    string Company = 2;
+    string LanguageId = 3;
+    string CompanyName = 4;
+    string CompanyDescription = 5;
+
+}
+message CompanyDescriptions{
+    repeated CompanyDescription ComDes = 1;
+}
+
+/*
+
+public Guid Id { get; set; }
+        public Guid Company { get; set; }
+    
+        public string LanguageId { get; set; }
+
+        [Column("Company_Name")]
+        public string CompanyName { get; set; }
+
+        [Column("Company_Description")]
+        public string CompanyDescription { get; set; }
+
+
+*/

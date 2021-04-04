@@ -1,0 +1,4 @@
+obj\Debug\netcoreapp3.1/ApplicantEducation.cs \
+obj\Debug\netcoreapp3.1/ApplicantEducationGrpc.cs: C:/Users/Danny/.nuget/packages/grpc.tools/2.27.0/build/native/include/google/protobuf/timestamp.proto\
+ C:/Users/Danny/.nuget/packages/grpc.tools/2.27.0/build/native/include/google/protobuf/empty.proto\
+ Protos/ApplicantEducation.proto

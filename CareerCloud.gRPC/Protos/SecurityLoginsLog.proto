@@ -1,0 +1,47 @@
+syntax = "proto3";
+import "google/protobuf/empty.proto";
+import "google/protobuf/timestamp.proto";
+
+
+option csharp_namespace = "CareerCloud.gRPC.Protos";
+
+package CareerCloud.gRPC;
+
+service SecurityLoginLogService {
+    rpc GetSecurityLoginLog (SecurityLoginLogIdrequest) returns(SecurityLoginLog); 
+    rpc CreateSecurityLoginLog(SecurityLoginLogs) returns(google.protobuf.Empty);
+    rpc UpdateSecurityLoginLog(SecurityLoginLogs) returns(google.protobuf.Empty);
+    rpc DeleteSecurityLoginLog(SecurityLoginLogs) returns(google.protobuf.Empty);
+
+}
+
+message SecurityLoginLogIdrequest{
+	 string Id = 1;
+}
+     message SecurityLoginLog{
+     string Id = 1;
+     string Login = 2;
+     string SourceIP = 3;
+     google.protobuf.Timestamp LogonDate = 4;
+     bool IsSuccesful = 5;
+
+ }
+
+ message SecurityLoginLogs{
+      repeated SecurityLoginLog SLL = 1;
+ }
+
+ /*
+  public Guid Id { get; set; }
+        public Guid Login { get; set; }
+
+        [Column("Source_IP")]
+        public string SourceIP { get; set; }
+
+        [Column("Logon_Date")]
+            
+        public DateTime LogonDate { get; set; }
+
+        [Column("Is_Succesful")]
+        public Boolean IsSuccesful { get; set; }
+ */

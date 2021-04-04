@@ -10,7 +10,7 @@ namespace CareerCloud.BusinessLogicLayer
 		public abstract class BaseLogic<TPoco>
 			where TPoco : IPoco
 		{
-			protected IDataRepository<TPoco> _repository;
+			protected readonly IDataRepository<TPoco> _repository;
 			public BaseLogic(IDataRepository<TPoco> repository)
 			{
 				_repository = repository;
